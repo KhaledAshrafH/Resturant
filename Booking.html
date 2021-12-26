@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="Css/Style1.css">
+    </head>
+    <body>
+    <!-- Start Form of booking -->    
+    <form action="">
+        <fieldset>
+            <legend>Booking a Visit</legend>
+        <label for="username">Username</label>
+        <input type="text" id="username" required placeholder="Khaled_Ashraf">
+        <label for="number_of_persons">Number of Persons</label>
+        <input type="number" id="number_of_persons" max="50" min="0">
+        <label for="time">Time</label>
+        <input type="time">
+        <label for="date">Date</label>
+        <input type="date">
+        <label for="payment">Payment Way</label>
+        <select name="payment" id="">
+            <option value="0">Choose Payment Way...</option>
+            <option value="1">Cash</option>
+            <option value="2">Checks</option>
+            <option value="3">Debit cards</option>
+            <option value="4">Credit cards</option>
+            <option value="5">Mobile payments</option>
+            <option value="6">Electronic bank transfers</option>
+        </select>
+        <input type="submit" value="Submit">
+        <button><a href="Home.html" target="_self">Return</a></button>
+    </fieldset>
+    </form>
+    <!-- End of the form -->
+    </body>
+</html>

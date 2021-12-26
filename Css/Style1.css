@@ -1,0 +1,83 @@
+/*Background*/
+body{
+    background-image: url(../Images/2.jpg);
+    margin: auto;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Form*/
+input, select {
+    width: 85%;
+    margin-left: 60px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10PX;
+    box-sizing: border-box;
+  }
+  label{
+    display: block;
+    padding: 10px;
+    width: 60%;
+    margin-left: 60px;
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+  }
+  input[type=submit] {
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: #093f0c;
+    font-weight: bold;
+  }
+  fieldset{
+      width: 60%;
+      position:relative; 
+      left:20%;
+      margin-top: 100px;
+      background-color: black;
+      opacity: 0.8;
+  }
+  button{
+    width: 25%;
+    color: white;
+    background-color: grey;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  button a{
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+  }
+  button:hover{
+      background-color: rgb(51, 50, 50);
+  }
+  input[type=submit],button{
+      position: relative;
+      left: 125px;
+      margin-right: 10px;
+  }
+  legend{
+      color: rgb(0, 0, 0);
+      background-color: gray;
+      border:2px solid rgb(141, 141, 141);
+      border-radius: 4%;
+      font-weight: bolder;
+      font-size: 30px;
+  }
